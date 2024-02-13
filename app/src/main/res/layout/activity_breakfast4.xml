@@ -26,10 +26,10 @@
                 android:layout_marginTop="35px"
                 android:layout_marginBottom="10px"
                 android:gravity="center"
-                android:text="Творожная запеканка"
+                android:text="@string/brk_3"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewBreakfast_4"
@@ -44,17 +44,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="Ингридиенты:"
+                android:text="@string/ingr"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewBreakfast3_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="1. Творог\n2. Манка\n3. Сахар\n4. Сливочное масло\n5. Молоко\n6. Яйца\n7. Ванилин"
+                android:text="@string/brk_3_2"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
@@ -62,16 +62,16 @@
                 android:id="@+id/textViewBreakfast4_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Приготовление:"
+                android:text="@string/prig"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewBreakfast5_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Творог протрите через мелкое сито или пробейте блендером.\n2. В емкости подходящего размера соедините яйца с сахаром. Взбейте смесь миксером до образования устойчивой пышной пены. Добавьте протертый творог и молоко. Продолжайте взбивание до однородного состояния.\n3. Добавьте мягкое сливочное масло. Еще раз взбейте смесь до однородности.\n4. По частям добавьте манную крупу. Каждый раз взбивайте массу миксером на небольшой скорости.\n5. Оставьте тесто на 15-30 минут, чтобы крупа разбухла. Заранее, за 10-20 минут до выпекания, включите духовку разогреваться до 180°С. Переложите тесто в подходящую форму для запекания.\n6. Выпекайте запеканку около 30 минут до румяности. Готовую запеканку остудите."
+                android:text="@string/brk_3_3"
                 android:textColor="#000000"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -82,7 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
-        android:text="Назад"
+        android:text="@string/back_btn"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

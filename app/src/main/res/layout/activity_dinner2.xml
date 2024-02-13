@@ -26,10 +26,10 @@
                 android:layout_marginTop="35px"
                 android:layout_marginBottom="10px"
                 android:gravity="center"
-                android:text="Гречка по купечески"
+                android:text="@string/dnn_1"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewDinner_2"
@@ -44,17 +44,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="Ингридиенты:"
+                android:text="@string/ingr"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewDinner3_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="1. Гречка\n2. Курица\n3. Лук\n4. Морковь\n5. Томатная паста\n6. Вода\n7. Растительное масло\n8. Специи сухие\n9. Соль"
+                android:text="@string/dnn_1_2"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
@@ -62,16 +62,16 @@
                 android:id="@+id/textViewDinner4_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Приготовление:"
+                android:text="@string/prig"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewDinner5_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Лук и морковь очистите и ополосните в воде. Гречку переберите, убирая мусор и неочищенные зерна. Несколько раз промойте ее в холодной воде.\n2. Куриное мясо помойте и хорошо обсушите. Нарежьте его на небольшие кусочки. На горячую сковороду налейте немного растительного масла и выложите кусочки нарезанного куриного мяса. Обжаривайте его на сильном огне, в течение 7-10 минут, чтобы оно немного поджарилось.\n3. Пока курица обжаривается, нарежьте лук, а морковь натрите на крупной терке.\n4. Затем добавьте лук и морковь в сковороду к мясу. Перемешайте и обжарьте все вместе еще минуты 3-4.\n5. Выложите в сковороду промытую гречку. Вскипятите воду. Томатную пасту размешайте в горячей воде и залейте этим гречку. По вкусу добавьте немного соли и специй. Перемешайте и доведите до кипения. Накройте сковороду крышкой и готовьте на маленьком огне в течение 13-15 минут.\n6. За время тушения гречка впитает в себя воду. Попробуйте гречку на вкус. Она должна быть мягкой."
+                android:text="@string/dnn_1_3"
                 android:textColor="#000000"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -82,7 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
-        android:text="Назад"
+        android:text="@string/back_btn"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

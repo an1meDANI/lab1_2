@@ -26,10 +26,10 @@
                 android:layout_marginTop="35px"
                 android:layout_marginBottom="10px"
                 android:gravity="center"
-                android:text="Овсяная каша"
+                android:text="@string/brk_2"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewBreakfast_3"
@@ -44,17 +44,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="Ингридиенты:"
+                android:text="@string/ingr"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewBreakfast3_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="1. Овсяные хлопья\n2. Молоко\n3. Сливочное масло\n4. Сахар\n5. Соль"
+                android:text="@string/brk_2_2"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
@@ -62,16 +62,16 @@
                 android:id="@+id/textViewBreakfast4_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Приготовление:"
+                android:text="@string/prig"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewBreakfast5_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Возьмите подходящий сотейник для варки каши. Всыпьте хлопья, налейте молоко. Добавьте соль и сахар.\n2. Поставьте сотейник с кашей на средний огонь.\n3. Молоко тем временем закипит, перемешайте его, чтобы хлопья не прилипли ко дну.\n4. Оставьте кашу вариться на маленьком огне на 15-20 минут.\n5. Когда каша будет готова, выключите огонь и положите в нее сливочное масло."
+                android:text="@string/brk_2_3"
                 android:textColor="#000000"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -82,7 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
-        android:text="Назад"
+        android:text="@string/back_btn"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

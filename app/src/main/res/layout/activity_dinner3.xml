@@ -26,10 +26,10 @@
                 android:layout_marginTop="35px"
                 android:layout_marginBottom="10px"
                 android:gravity="center"
-                android:text="Лазанья"
+                android:text="@string/dnn_2"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewDinner_3"
@@ -44,17 +44,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="Ингридиенты:"
+                android:text="@string/ingr"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewDinner3_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="1. Фарш мясной\n2. Помидоры\n3. Лук\n4. Листы лазаньи\n5. Чеснок\n6. Томатная паста\n7. Твердый сыр\n8. Растительное масло\n9. Соль"
+                android:text="@string/dnn_2_2"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
@@ -62,16 +62,16 @@
                 android:id="@+id/textViewDinner4_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Приготовление:"
+                android:text="@string/prig"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewDinner5_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Лук очистите и нарежьте произвольно некрупными кусочками.\n2. На сковороде разогрейте растительное масло и обжарьте на нём фарш и лук в течение пяти минут, постоянно помешивая.\n3. Чеснок почистите и мелко нарубите. Помидоры помойте и нарежьте кубиками. С помидора предварительно можно снять кожицу. Отправьте в сковороду к фаршу с луком томатную пасту, нарезанные помидоры и чеснок. Добавьте соль по вкусу.\n4. Всё хорошо перемешайте, убавьте огонь до среднего и тушите фарш под закрытой крышкой около 10 минут. На этом этапе можно добавить к фаршу щепотку базилика.\n5. Пока тушится фарш, приготовьте соус Бешамель. Для этого в сотейнике на маленьком огне растопите сливочное масло.\n6. Всыпьте муку и, непрерывно помешивая венчиком, слегка её обжарьте на растопленном масле.\n7. Постепенно влейте молоко, продолжая перемешивать массу венчиком, чтобы не образовалось комочков. Доведите смесь до консистенции густых сливок, снимите с огня и остудите.\n8. Дно формы для запекания смажьте растительным маслом или застелите пекарской бумагой. Залейте дно соусом Бешамель.\n9. Первым слоем выложите листы для лазаньи. Сверху листы снова полейте соусом.\n10. Следующим слоем выложите фарш и присыпьте его слегка тёртым сыром.\n11. Залейте фарш соусом. Выкладывайте так слои, пока не заполнится форма. Последний слой с листами нужно очень хорошо залить соусом, особенно края, иначе есть вероятность, что лист теста засохнет и пригорит в процессе приготовления.\n12. Завершающим слоем посыпьте тёртый сыр.\n13. Отправьте лазанью в разогретую до 190-200 градусов духовку на 30-35 минут. Ориентируйтесь на то, что на лазанье должна образоваться аппетитная золотистая корочка. Готовое блюдо выньте из духовки и дайте настояться около 10 минут."
+                android:text="@string/dnn_2_3"
                 android:textColor="#000000"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -82,7 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
-        android:text="Назад"
+        android:text="@string/back_btn"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

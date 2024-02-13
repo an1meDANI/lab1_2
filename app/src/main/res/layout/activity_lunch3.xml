@@ -26,10 +26,10 @@
                 android:layout_marginTop="35px"
                 android:layout_marginBottom="10px"
                 android:gravity="center"
-                android:text="Куриный суп"
+                android:text="@string/lnch_2"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewLunch_3"
@@ -44,17 +44,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="Ингридиенты:"
+                android:text="@string/ingr"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewLunch3_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="1. Курица\n2. Картошка\n3. Лук репчатый\n4. Морковь\n5. Болгарский перец\n6. Вода\n7. Растительное масло\n8. Соль\n9. Специи сухие"
+                android:text="@string/lnch_2_2"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
@@ -62,16 +62,16 @@
                 android:id="@+id/textViewLunch4_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Приготовление:"
+                android:text="@string/prig"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewLunch5_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Курицу промойте, сложите в кастрюлю и залейте водой. Поставьте на огонь и доведите до кипения. Варите на небольшом огне 25-30 минут. Немного подсолите. Когда курица сварится извлеките её из бульона, немного остудите и отделите мясо от костей. Бульон процедите. Верните мясо в бульон и поставьте обратно на огонь. Доведите до кипения.\n2. Очищенный картофель нарежьте на небольшие кусочки и выложите в кипящий бульон. Варите картофель минут 15-20. За время варки картофель станет мягкий.\n3. Пока варится картофель займитесь овощной зажаркой. Лук и морковь очистите от кожуры и ополосните. Лук мелко нарежьте, а морковь натрите на крупной терке. на сковороду налейте немного растительного масла и обжарьте овощи на небольшом огне пару минут. Затем добавьте в сковороду нарезанный болгарский перец. Перец можно нарезать как крупными кусочками, так и мелкими. Обжарьте все овощи еще 2-3 минуты и выложите поджарку в кастрюлю с супом.\n4. Добавьте в суп немного соли и специи. Проварите все вместе 1-2 минуты и снимите кастрюлю с огня."
+                android:text="@string/lnch_2_3"
                 android:textColor="#000000"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -82,7 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
-        android:text="Назад"
+        android:text="@string/back_btn"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

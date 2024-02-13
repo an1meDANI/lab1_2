@@ -22,30 +22,30 @@
             android:layout_marginTop="35px"
             android:layout_marginBottom="100px"
             android:gravity="center"
-            android:text="Ужин"
+            android:text="@string/dnn_name"
             android:textColor="#000000"
-            android:textStyle="bold"
-            android:textSize="34sp" />
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonDinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Гречка по купечески"
+            android:text="@string/dnn_1"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonDinner2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Лазанья"
+            android:text="@string/dnn_2"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonDinner3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Салат Цезарь"
+            android:text="@string/dnn_3"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -55,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
-        android:text="Назад"
+        android:text="@string/back_btn"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -22,30 +22,30 @@
             android:layout_marginTop="35px"
             android:layout_marginBottom="100px"
             android:gravity="center"
-            android:text="Завтрак"
+            android:text="@string/brk_name"
             android:textColor="#000000"
-            android:textStyle="bold"
-            android:textSize="34sp" />
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonBreakfast"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Омлет"
+            android:text="@string/brk_1"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonBreakfast2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Овсяная каша"
+            android:text="@string/brk_2"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonBreakfast3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Творожная запеканка"
+            android:text="@string/brk_3"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -55,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
-        android:text="Назад"
+        android:text="@string/back_btn"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -19,30 +19,30 @@
             android:layout_marginTop="35px"
             android:layout_marginBottom="100px"
             android:gravity="center"
-            android:text="Выбор языка"
+            android:text="@string/lng_name"
             android:textColor="#000000"
-            android:textStyle="bold"
-            android:textSize="34sp" />
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonLanguage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Русский"
+            android:text="@string/lng_btn"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonLanguage2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Английский"
+            android:text="@string/lng_btn2"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonLanguage3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Японский"
+            android:text="@string/lng_btn3"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -52,7 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
-        android:text="Назад"
+        android:text="@string/back_btn"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -26,10 +26,10 @@
                 android:layout_marginTop="35px"
                 android:layout_marginBottom="10px"
                 android:gravity="center"
-                android:text="Салат Цезарь"
+                android:text="@string/dnn_3"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageViewDinner_4"
@@ -44,17 +44,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="Ингридиенты:"
+                android:text="@string/ingr"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewDinner3_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10px"
-                android:text="1. Салат Айсберг\n2. Куриное филе\n3. Помидоры черри\n4. Батон\n5. Пармезан\n6. Чеснок\n7. Растительное масло\n8. Соль\n9. Перец черный молотый\n10. Оливковое масло\n11. Пармезан\n12. Яйца\n13. Горчица\n14. Сахар"
+                android:text="@string/dnn_3_2"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
@@ -62,16 +62,16 @@
                 android:id="@+id/textViewDinner4_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Приготовление:"
+                android:text="@string/prig"
                 android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewDinner5_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Батон нарежьте на небольшие кубики.\n2. На сковороду налейте немного растительного масла, положите очищенный и раздавленный зубчик чеснока. Выложите нарезанный хлеб, перемешайте. Жарьте гренки на самом маленьком огне до хрустящего состояния. Время от времени их необходимо перемешивать.\n3. Куриное филе нарежьте на небольшие медальоны одинакового размера. Посолите и поперчите их.\n4. Поджарьте филе на сковороде с небольшим количеством растительного масла с двух сторон до румяной корочки. Готовое филе снимите со сковороды и остудите.\n5. Подготовьте продукты для приготовления соуса. Яйцо положите в стакан и залейте крутым кипятком. Подержите его в таком виде минуту-две.\n6. В стакан для взбивания разбейте подготовленное яйцо, положите пармезан, горчицу, сахар, соль, масло и измельченный чеснок.\n7. Короткими импульсными движениями взбейте все ингредиенты до состояния соуса.\n8. Остывшее филе нарежьте на небольшие кусочки.\n9. На дно тарелки порвите листья салата. Полейте салат соусом.\n10. Разложите кусочки курицы и порезанные помидорки.\n11. Сверху положите сухарики. Посыпьте натертым пармезаном.\n12. И в заключении еще раз полейте весь салат соусом."
+                android:text="@string/dnn_3_3"
                 android:textColor="#000000"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -82,7 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
-        android:text="Назад"
+        android:text="@string/back_btn"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
