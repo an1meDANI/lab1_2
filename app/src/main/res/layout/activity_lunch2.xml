@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LunchActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewLunch_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35px"
+                android:layout_marginBottom="10px"
+                android:gravity="center"
+                android:text="Жаркое из свинины"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLunch_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:adjustViewBounds="true"
+                android:src="@drawable/imagelunch_1" />
+
+            <TextView
+                android:id="@+id/textViewLunch2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:text="Ингридиенты:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewLunch3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:text="1. Свинина\n2. Картошка\n3. Бульон\n4. Болгарский перец\n5. Лук\n6. Морковь\n7. Растительное масло\n8. Перец черный молотый\n9. Соль"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewLunch4_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Приготовление:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewLunch5_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Свинину вымойте и нарежьте средними кусочками.\n2. Картофель очистите. Клубни нарезать.\n3. Луковицу среднего или крупного размера разрежьте на четыре части.\n4. Морковь нарежьте не очень тонкими кружочками.\n5. Болгарский перец очистите от семян и плодоножки и нарежьте средними кусочками.\n6. В сковороде разогрейте часть растительного масла. Обжарьте на нем свинину до золотистой корочки. В конце мясо посолите, поперчите.\n7. В миске соедините все овощи, влейте оставшееся растительное масло. Все посолите, поперчите и перемешайте.\n8. Переложите мясо и овощи в форму для запекания. Влейте бульон.\n9. Накройте форму фольгой или жаропрочной крышкой, если она есть и поставьте в разогретую до 180°С духовку. Время запекания 1-1,5 часа.\n10. Готовое жаркое посыпьте рубленой зеленью."
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonLunchBack_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:text="Назад"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

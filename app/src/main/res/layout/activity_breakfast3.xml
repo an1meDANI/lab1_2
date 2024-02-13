@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreakfastActivity3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewBreakfast_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35px"
+                android:layout_marginBottom="10px"
+                android:gravity="center"
+                android:text="Овсяная каша"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBreakfast_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:adjustViewBounds="true"
+                android:src="@drawable/imagebreakfast_2" />
+
+            <TextView
+                android:id="@+id/textViewBreakfast2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:text="Ингридиенты:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewBreakfast3_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:text="1. Овсяные хлопья\n2. Молоко\n3. Сливочное масло\n4. Сахар\n5. Соль"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewBreakfast4_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Приготовление:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewBreakfast5_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Возьмите подходящий сотейник для варки каши. Всыпьте хлопья, налейте молоко. Добавьте соль и сахар.\n2. Поставьте сотейник с кашей на средний огонь.\n3. Молоко тем временем закипит, перемешайте его, чтобы хлопья не прилипли ко дну.\n4. Оставьте кашу вариться на маленьком огне на 15-20 минут.\n5. Когда каша будет готова, выключите огонь и положите в нее сливочное масло."
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonBreakfastBack_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:text="Назад"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

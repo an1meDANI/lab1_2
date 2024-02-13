@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreakfastActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewBreakfast_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35px"
+                android:layout_marginBottom="10px"
+                android:gravity="center"
+                android:text="Омлет"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageViewBreakfast_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:adjustViewBounds="true"
+                android:src="@drawable/imagebreakfast_1" />
+
+            <TextView
+                android:id="@+id/textViewBreakfast2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:text="Ингридиенты:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewBreakfast3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:text="1. Яйца\n2. Молоко\n3. Топленое масло\n4. Соль"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewBreakfast4_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Приготовление:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewBreakfast5_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Яйца хорошо помойте. Аккуратно разбейте их в мисочку.\n2. Размешайте яйца вилкой или венчиком.\n3. Немного посолите омлетную смесь.\n4. Влейте в яичную смесь молоко.\n5. Перемешайте омлетную смесь до однородного состояния.\n6. Сковороду, в которой будете готовить омлет, смажьте маслом. Хорошо разогрейте сковороду с маслом.\n7. Вылейте омлетную массу в сковороду. Готовьте на маленьком огне. Омлет будет готов, когда не останется жидких участков во всей яичной массе."
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonBreakfastBack_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:text="Назад"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

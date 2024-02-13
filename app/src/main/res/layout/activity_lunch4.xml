@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LunchActivity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewLunch_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35px"
+                android:layout_marginBottom="10px"
+                android:gravity="center"
+                android:text="Паста Карбонара"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageViewLunch_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:adjustViewBounds="true"
+                android:src="@drawable/imagelunch_3" />
+
+            <TextView
+                android:id="@+id/textViewLunch2_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:text="Ингридиенты:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewLunch3_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10px"
+                android:text="1. Спагетти\n2. Бекон\n3. Соль\n4. Вода\n5. Оливковое масло\n6. Сливки\n7. Яичные желтки\n8. Смесь трав\n9. Перец черный молотый"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewLunch4_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Приготовление:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewLunch5_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Налейте воду в подходящую по объему кастрюлю, поставьте на плиту и доведите до кипения. Добавьте соль. Опустите в воду спагетти. Варите пасту в кипящей воде 6-8 минут.\n2. Слейте воду через дуршлаг, а пасту сбрызните оливковым маслом и перемешайте.\n3. Подготовьте продукты для соуса. Ломтики бекона нарежьте на кусочки квадратной формы. Подогрейте на сковороде масло и обжарьте бекон до золотистого цвета на среднем огне, помешивая все лопаточкой.\n4. Влейте на сковороду сливки, перемешайте. Тушите все, помешивая, в течение одной минуты.\n5. Добавьте в соус итальянские травы, молотый перец и соль. Выложите в сковороду пасту и осторожно перемешайте. Подержите на огне блюдо около одной минуты, чтобы все хорошо прогрелось. Снимите сковороду с плиты.\n6. Добавьте в макароны карбонара сырой желток и быстро перемешайте так, чтобы желток разошелся по всему блюду."
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonLunchBack_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:text="Назад"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

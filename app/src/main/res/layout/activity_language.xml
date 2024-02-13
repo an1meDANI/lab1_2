@@ -4,54 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LunchActivity">
+    tools:context=".LanguageActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="15dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="100dp">
+        android:layout_margin="15dp">
 
         <TextView
-            android:id="@+id/textViewLunch"
+            android:id="@+id/textViewLanguage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35px"
             android:layout_marginBottom="100px"
             android:gravity="center"
-            android:text="Обед"
+            android:text="Выбор языка"
             android:textColor="#000000"
             android:textStyle="bold"
             android:textSize="34sp" />
 
         <Button
-            android:id="@+id/buttonLunch"
+            android:id="@+id/buttonLanguage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Жаркое из свинины"
+            android:text="Русский"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/buttonLunch2"
+            android:id="@+id/buttonLanguage2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Куриный суп"
+            android:text="Английский"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/buttonLunch3"
+            android:id="@+id/buttonLanguage3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Паста Карбонара"
+            android:text="Японский"
             android:textSize="20sp" />
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/buttonLunchBack"
+        android:id="@+id/buttonLanguageBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
