@@ -26,13 +26,13 @@ public class LanguageActivity extends AppCompatActivity {
         buttonLanguage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setLanguage("ru-rRU");
+                setLanguage("ru");
             }
         });
         buttonLanguage2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setLanguage("en-rUS");
+                setLanguage("en");
             }
         });
         buttonLanguage3.setOnClickListener(new View.OnClickListener() {
