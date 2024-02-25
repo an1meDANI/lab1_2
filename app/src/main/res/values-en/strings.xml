@@ -39,4 +39,17 @@
     <string name="dnn_3">Caesar salad</string>
     <string name="dnn_3_2">1. Iceberg salad\n2. Chicken fillet\n3. Cherry tomatoes\n4. Loaf\n5. Parmesan\n6. Garlic\n7. Vegetable oil\n8. Salt\n9. Ground black pepper\n10. Olive oil\n11. Parmesan\n12. Eggs\n13. Mustard\n14. Sugar</string>
     <string name="dnn_3_3">1. Cut the loaf into small cubes.\n2. Pour a little vegetable oil into the frying pan, add a peeled and crushed clove of garlic. Add sliced bread and stir. Fry the croutons over low heat until crispy. They need to be stirred from time to time.\n3. Cut the chicken fillet into small medallions of the same size. Salt and pepper them.\n4. Fry the fillet in a frying pan with a small amount of vegetable oil on both sides until golden brown. Remove the finished fillet from the pan and cool.\n5. Prepare ingredients for making sauce. Place the egg in a glass and pour boiling water over it. Keep it like this for a minute or two.\n6. Break the prepared egg into a mixing glass, add Parmesan, mustard, sugar, salt, butter and chopped garlic.\n7. Using short pulse movements, whisk all ingredients until it forms a sauce.\n8. Cut the cooled fillet into small pieces.\n9. Tear the lettuce leaves into the bottom of the plate. Pour the sauce over the salad.\n10. Arrange the chicken pieces and chopped tomatoes.\n11. Place crackers on top. Sprinkle with grated Parmesan.\n12. Finally, pour the sauce over the entire salad again.</string>
+    <string name="cancel">Cancel timer</string>
+    <string name="n1">Timer item №1</string>
+    <string name="n2">Timer item №2</string>
+    <string name="n3">Timer item №3</string>
+    <string name="n4">Timer item №4</string>
+    <string name="n5_1">Timer item 5-1</string>
+    <string name="n5_2">Timer item 5-2</string>
+    <string name="n6">Timer item №6</string>
+    <string name="n7">Timer item №7</string>
+    <string name="n9">Timer item №9</string>
+    <string name="n5">Timer item №5</string>
+    <string name="n13_1">Timer item 13-1</string>
+    <string name="n13_2">Timer item 13-2</string>
 </resources>
