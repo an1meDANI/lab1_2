@@ -38,7 +38,7 @@ public class BreakfastActivity2 extends AppCompatActivity {
         vibrator2 = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
         player = MediaPlayer.create(this,R.raw.call);
         player2 = MediaPlayer.create(this,R.raw.call);
-        playerVoice = MediaPlayer.create(this,R.raw.call);
+        playerVoice = MediaPlayer.create(this,R.raw.voicebreakfast_1);
 
         buttonBreakfast2Timer.setOnClickListener(new View.OnClickListener() {
             @Override
