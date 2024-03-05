@@ -2,10 +2,13 @@ package com.example.lab1_2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.os.Vibrator;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -17,6 +20,8 @@ public class LunchActivity2 extends AppCompatActivity {
     Button buttonLunchBack_2, buttonLunch2Timer, buttonLunch2Timer2;
     TextView textViewLunch2Time, textViewLunch2Time2;
     CountDownTimer timer, timer2;
+    Vibrator vibrator, vibrator2;
+    MediaPlayer player, player2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +33,10 @@ public class LunchActivity2 extends AppCompatActivity {
         buttonLunch2Timer2 = findViewById(R.id.buttonLunch2Timer2);
         textViewLunch2Time = findViewById(R.id.textViewLunch2Time);
         textViewLunch2Time2 = findViewById(R.id.textViewLunch2Time2);
+        vibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+        vibrator2 = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+        player = MediaPlayer.create(this,R.raw.call);
+        player2 = MediaPlayer.create(this,R.raw.call);
 
         buttonLunch2Timer.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +65,10 @@ public class LunchActivity2 extends AppCompatActivity {
                         public void onFinish() {
                             buttonLunch2Timer.setText(getString(R.string.n6));
                             buttonLunch2Timer.setBackgroundColor(Color.parseColor("#6750A4"));
+                            timer = null;
+                            textViewLunch2Time.setText("00:00");
+                            player.start();
+                            vibrator.vibrate(2000);
                         }
                     };
                     timer.start();
@@ -90,6 +103,10 @@ public class LunchActivity2 extends AppCompatActivity {
                         public void onFinish() {
                             buttonLunch2Timer2.setText(getString(R.string.n9));
                             buttonLunch2Timer2.setBackgroundColor(Color.parseColor("#6750A4"));
+                            timer2 = null;
+                            textViewLunch2Time2.setText("00:00");
+                            player2.start();
+                            vibrator2.vibrate(2000);
                         }
                     };
                     timer2.start();

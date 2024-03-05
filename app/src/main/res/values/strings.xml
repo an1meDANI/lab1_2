@@ -51,4 +51,5 @@
     <string name="n9">Таймер пункт №9</string>
     <string name="n13_1">Таймер пункт 13-1</string>
     <string name="n13_2">Таймер пункт 13-2</string>
+    <string name="brk_voice">Озвучка рецепта</string>
 </resources>

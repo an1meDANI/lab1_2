@@ -2,10 +2,13 @@ package com.example.lab1_2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.os.Vibrator;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -17,6 +20,8 @@ public class LunchActivity4 extends AppCompatActivity {
     Button buttonLunchBack_4, buttonLunch4Timer, buttonLunch4Timer2, buttonLunch4Timer3;
     TextView textViewLunch4Time, textViewLunch4Time2, textViewLunch4Time3;
     CountDownTimer timer, timer2, timer3;
+    Vibrator vibrator, vibrator2, vibrator3;
+    MediaPlayer player, player2, player3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +35,12 @@ public class LunchActivity4 extends AppCompatActivity {
         textViewLunch4Time = findViewById(R.id.textViewLunch4Time);
         textViewLunch4Time2 = findViewById(R.id.textViewLunch4Time2);
         textViewLunch4Time3 = findViewById(R.id.textViewLunch4Time3);
+        vibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+        vibrator2 = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+        vibrator3 = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+        player = MediaPlayer.create(this,R.raw.call);
+        player2 = MediaPlayer.create(this,R.raw.call);
+        player3 = MediaPlayer.create(this,R.raw.call);
 
         buttonLunch4Timer.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +69,10 @@ public class LunchActivity4 extends AppCompatActivity {
                         public void onFinish() {
                             buttonLunch4Timer.setText(getString(R.string.n1));
                             buttonLunch4Timer.setBackgroundColor(Color.parseColor("#6750A4"));
+                            timer = null;
+                            textViewLunch4Time.setText("00:00");
+                            player.start();
+                            vibrator.vibrate(2000);
                         }
                     };
                     timer.start();
@@ -92,6 +107,10 @@ public class LunchActivity4 extends AppCompatActivity {
                         public void onFinish() {
                             buttonLunch4Timer2.setText(getString(R.string.n3));
                             buttonLunch4Timer2.setBackgroundColor(Color.parseColor("#6750A4"));
+                            timer2 = null;
+                            textViewLunch4Time2.setText("00:00");
+                            player2.start();
+                            vibrator2.vibrate(2000);
                         }
                     };
                     timer2.start();
@@ -126,6 +145,10 @@ public class LunchActivity4 extends AppCompatActivity {
                         public void onFinish() {
                             buttonLunch4Timer3.setText(getString(R.string.n5));
                             buttonLunch4Timer3.setBackgroundColor(Color.parseColor("#6750A4"));
+                            timer3 = null;
+                            textViewLunch4Time3.setText("00:00");
+                            player3.start();
+                            vibrator3.vibrate(2000);
                         }
                     };
                     timer3.start();

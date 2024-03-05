@@ -2,10 +2,13 @@ package com.example.lab1_2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.os.Vibrator;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -17,6 +20,8 @@ public class BreakfastActivity3 extends AppCompatActivity {
     Button buttonBreakfastBack_3, buttonBreakfast3Timer, buttonBreakfast3Timer2;
     TextView textViewBreakfast3Time, textViewBreakfast3Time2;
     CountDownTimer timer, timer2;
+    Vibrator vibrator, vibrator2;
+    MediaPlayer player, player2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +33,10 @@ public class BreakfastActivity3 extends AppCompatActivity {
         buttonBreakfast3Timer2 = findViewById(R.id.buttonBreakfast3Timer2);
         textViewBreakfast3Time = findViewById(R.id.textViewBreakfast3Time);
         textViewBreakfast3Time2 = findViewById(R.id.textViewBreakfast3Time2);
+        vibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+        vibrator2 = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+        player = MediaPlayer.create(this,R.raw.call);
+        player2 = MediaPlayer.create(this,R.raw.call);
 
         buttonBreakfast3Timer.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +65,10 @@ public class BreakfastActivity3 extends AppCompatActivity {
                         public void onFinish() {
                             buttonBreakfast3Timer.setText(getString(R.string.n2));
                             buttonBreakfast3Timer.setBackgroundColor(Color.parseColor("#6750A4"));
+                            timer = null;
+                            textViewBreakfast3Time.setText("00:00");
+                            player.start();
+                            vibrator.vibrate(2000);
                         }
                     };
                     timer.start();
@@ -90,6 +103,10 @@ public class BreakfastActivity3 extends AppCompatActivity {
                         public void onFinish() {
                             buttonBreakfast3Timer2.setText(getString(R.string.n4));
                             buttonBreakfast3Timer2.setBackgroundColor(Color.parseColor("#6750A4"));
+                            timer2 = null;
+                            textViewBreakfast3Time2.setText("00:00");
+                            player2.start();
+                            vibrator2.vibrate(2000);
                         }
                     };
                     timer2.start();
