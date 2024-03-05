@@ -53,4 +53,5 @@
     <string name="n13_1">タイマー項目13-1</string>
     <string name="n13_2">タイマー項目13-1</string>
     <string name="brk_voice">レシピのナレーション</string>
+    <string name="cancel_voice">声優活動をキャンセル</string>
 </resources>

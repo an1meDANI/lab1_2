@@ -53,4 +53,5 @@
     <string name="n13_1">Timer item 13-1</string>
     <string name="n13_2">Timer item 13-2</string>
     <string name="brk_voice">Recipe voiceover</string>
+    <string name="cancel_voice">Cancel voice acting</string>
 </resources>

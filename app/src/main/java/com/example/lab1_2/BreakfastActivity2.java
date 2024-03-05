@@ -129,7 +129,7 @@ public class BreakfastActivity2 extends AppCompatActivity {
                     buttonBreakfast2Voice.setBackgroundColor(Color.parseColor("#6750A4"));
                 } else {
                     playerVoice.start();
-                    buttonBreakfast2Voice.setText(getString(R.string.cancel));
+                    buttonBreakfast2Voice.setText(getString(R.string.cancel_voice));
                     buttonBreakfast2Voice.setBackgroundColor(Color.RED);
                 }
             }
